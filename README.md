@@ -63,11 +63,11 @@ The initial project contains the file structure you should use and some default 
 
 ### Project Steps:
 
-1. Look through the App.jsx
-2. Look through all of the files in the components folder for TODOs
-3. Create a simple HTML table using JSX in the Table.jsx
-4. Render your Table component properly in LinkContainer.jsx
-5. Review the code in TableHeader and TableBody
+1. Look through the App.jsx ✅
+2. Look through all of the files in the components folder for TODOs  ✅
+3. Create a simple HTML table using JSX in the Table.jsx ✅
+4. Render your Table component properly in LinkContainer.jsx ✅
+5. Review the code in TableHeader and TableBody ✅
 6. Change your Table component to render the TableHeader and TableBody components
 7. Pass a prop called linkData to your Table component from the LinkContainer component
 8. Access and show data passed from LinkContainer in TableBody

@@ -31,12 +31,14 @@ const TableBody = (props) => {
     return <tbody>{rows}</tbody>
   }
 
-
-function Table(){
+function Table(props){
+  const handleRemove = (index) => {
+    console.log("button clicked", index)
+  }
     return(
         <table>
         <TableHeader/>
-        <TableBody/>
+        <TableBody linkData={props.data} removeLink={handleRemove}/>
         </table>
     )
 }
