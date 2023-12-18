@@ -11,7 +11,7 @@ function LinkContainer(){
         /*
                 TODO - Create logic for setting the state to filter array and remove favLink at index
             */
-      }
+                setFavLinks(newUpdateLinks)
     
       const handleSubmit = (favLink) => {
         /*
@@ -26,7 +26,7 @@ function LinkContainer(){
             <p>Add a new link with a name and URL to the table! </p>
             <Table data={favLinks} prop2 prop3/>
             <h1>Add New</h1>
-            <Form onNewLink={handleSubmit}/>
+            <Form onNewLink={handleSubmit} onRemove={handleRemove}/>
         </div>
     )
 

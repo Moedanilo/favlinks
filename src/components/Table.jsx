@@ -34,7 +34,10 @@ const TableBody = (props) => {
 function Table(props){
   const handleRemove = (index) => {
     console.log("button clicked", index)
+    const newUpdateLinks = favLinks.filter((index)=> index !== this.index
+    
   }
+  
     return(
         <table>
         <TableHeader/>
